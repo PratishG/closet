@@ -1,5 +1,7 @@
 //class Pig
 //a Pig Latin translator
+// v01 -- material discussed 2013-10-24 R
+// change filename to Pig.java to compile
 
 public class Pig {
 
@@ -53,52 +55,11 @@ public class Pig {
 
 
     /*=====================================
-      String allVowels(String) -- tells whether a Strings is all vowels
+      String allVowels(String) -- returns the vowels in a String
       pre:  w != null
       post: allVowels(“meatball”) → “eaa”
       =====================================*/
     public static String allVowels( String w ) {
-
-	// *** your implementation here ***
-	return ""; //placeholder to get past compiler
-    }
-
-
-    /*=====================================
-      String firstVowel(String) -- returns first vowel in a String
-      pre:  w != null
-      post: firstVowel("") --> ""
-            firstVowel("zzz") --> ""
-            firstVowel("meatball") --> "e"
-      =====================================*/
-    public static String firstVowel( String w ) {
-
-	// *** your implementation here ***
-	return ""; //placeholder to get past compiler
-    }
-
-
-    /*=====================================
-      boolean beginsWithVowel(String) -- tells whether a String begins with a vowel
-      pre:  w != null and w.length() > 0
-      post: beginsWithVowel("apple")  --> true
-            beginsWithVowel("strong") --> false
-      =====================================*/
-    public static boolean beginsWithVowel( String w ) {
-
-	// *** your implementation here ***
-	return false; //placeholder to get past compiler
-    }
-
-
-    /*=====================================
-      String engToPig(String) -- converts an English word to Pig Latin
-      pre:  w.length() > 0
-      post: engToPig("apple")  --> "appleway"
-            engToPig("strong") --> "ongstray"
-            engToPig("java")   --> "avajay"
-      =====================================*/
-    public static String engToPig( String w ) {
 
 	// *** your implementation here ***
 	return ""; //placeholder to get past compiler

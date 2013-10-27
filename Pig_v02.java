@@ -1,5 +1,7 @@
 //class Pig
 //a Pig Latin translator
+// v02 -- 
+// change filename to Pig.java to compile
 
 public class Pig {
 
@@ -53,7 +55,7 @@ public class Pig {
 
 
     /*=====================================
-      String allVowels(String) -- tells whether a Strings is all vowels
+      String allVowels(String) -- returns the vowels in a String
       pre:  w != null
       post: allVowels(“meatball”) → “eaa”
       =====================================*/
