@@ -43,7 +43,8 @@ public class Loopier {
 
     /*==================================================
       int linSearchR(int[],int) -- recursively searches array of ints for target
-      post: returns -1 if target not found
+      post: returns index of first occurrence of target, or
+            returns -1 if target not found
       ==================================================*/
     //hint: you may want to initialize a var outside the method...    
     public static int linSearchR ( int[] a, int target ) {
@@ -56,7 +57,8 @@ public class Loopier {
     
     /*==================================================
       int linSearch(String[],String) -- searches an array of Strings for target
-      post: returns -1 if target not found
+      post: returns index of first occurrence of target, or
+            returns -1 if target not found
       ==================================================*/
     public static int linSearch ( String[] a, String target ) {
 
