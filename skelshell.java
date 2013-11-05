@@ -8,7 +8,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public _ _(  ) {
-	// your implementation here
+	// *** YOUR IMPLEMENATION HERE ***
     }
 
 
@@ -18,7 +18,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public int _(  ) {
-	// your implementation here
+	// *** YOUR IMPLEMENATION HERE ***
 	return 0; //placeholder to get past compiler
     }
 
@@ -29,7 +29,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public boolean _(  ) {
-	// your implementation here
+	// *** YOUR IMPLEMENATION HERE ***
 	return false; //placeholder to get past compiler
     }
 
@@ -40,7 +40,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public String _(  ) {
-	// your implementation here
+	// *** YOUR IMPLEMENATION HERE ***
 	return ""; //placeholder to get past compiler
     }
 
