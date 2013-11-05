@@ -8,7 +8,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public _ _(  ) {
-	// *** YOUR IMPLEMENATION HERE ***
+	// *** YOUR IMPLEMENTATION HERE ***
     }
 
 
@@ -18,7 +18,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public int _(  ) {
-	// *** YOUR IMPLEMENATION HERE ***
+	// *** YOUR IMPLEMENTATION HERE ***
 	return 0; //placeholder to get past compiler
     }
 
@@ -29,7 +29,7 @@ public class _ {
       postcondition: 
       =====================================*/
     public boolean _(  ) {
-	// *** YOUR IMPLEMENATION HERE ***
+	// *** YOUR IMPLEMENTATION HERE ***
 	return false; //placeholder to get past compiler
     }
 
@@ -40,13 +40,16 @@ public class _ {
       postcondition: 
       =====================================*/
     public String _(  ) {
-	// *** YOUR IMPLEMENATION HERE ***
+	// *** YOUR IMPLEMENTATION HERE ***
 	return ""; //placeholder to get past compiler
     }
 
 
     //main method for testing
     public static void main( String[] args ) {
+
+	/*=========================================
+	  =========================================*/
 
 	System.out.println();
 	System.out.println( "Testing ..." );
