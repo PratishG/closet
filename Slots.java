@@ -26,9 +26,8 @@ public class Slots {
     /*=====================================
       String toString() -- overrides inherited toString()
       pre:  
-      post: returns String of elements in slots 0 thru 1, separated by tabs
+      post: returns String of elements in slots 0 thru 2, separated by tabs
       =====================================*/
-    //return String of first three fruits separated by tabs
     public String toString() {
 
 	// *** YOUR IMPLEMENTATION HERE ***
@@ -42,7 +41,6 @@ public class Slots {
       pre:  _fruits array exists
       post: elements at indices i, j are swapped
       =====================================*/
-    //swap vals at indices i and j.
     private void swap( int i, int j ) {
 
 	// *** YOUR IMPLEMENTATION HERE ***
