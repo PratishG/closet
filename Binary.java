@@ -83,8 +83,8 @@ public class Binary implements Comparable {
     /*=============================================
       int compareTo(Object) -- tells which of two Binary objects is greater
       pre:  other is instance of class Binary
-      post: Returns 0 if this Object is less than input Object,
-            negative integer if this < input, positive integer otherwise
+      post: Returns 0 if this Object is equal to the input Object,
+            negative integer if this<input, positive integer otherwise
       =============================================*/
     public int compareTo( Object other ) {
 	// *** YOUR IMPLEMENTATION HERE ***
@@ -98,16 +98,32 @@ public class Binary implements Comparable {
 	System.out.println();
 	System.out.println( "Testing ..." );
 
-	/*=========================================
 	Binary b1 = new Binary(5);
 	Binary b2 = new Binary(5);
 	Binary b3 = b1;
-	System.out.println(b1);
-	System.out.println(b2);
-	System.out.println(b3);       //false b/c b1, b2 not aliases
-	System.out.println(b1 == b2); //true b/c b1, b3 are aliases
-	System.out.println(b1 == b3); //false, but should be true
-	System.out.println(b1.equals(b2));
+	Binary b4 = new Binary(7);
+
+	System.out.println( b1 );
+	System.out.println( b2 );
+	System.out.println( b3 );       
+
+	System.out.println( "\n==..." );
+	System.out.println( b1 == b2 ); //should be false
+	System.out.println( b1 == b3 ); //should be true
+
+	System.out.println( "\n.equals()..." );
+	System.out.println( b1.equals(b2) ); //should be true
+	System.out.println( b1.equals(b3) ); //should be true
+	System.out.println( b3.equals(b1) ); //should be true
+	System.out.println( b4.equals(b2) ); //should be false
+	System.out.println( b1.equals(b4) ); //should be false
+
+	System.out.println( "\n.compareTo..." );
+	System.out.println( b1.compareTo(b2) ); //should be 0
+	System.out.println( b1.compareTo(b3) ); //should be 0
+	System.out.println( b1.compareTo(b4) ); //should be neg
+	System.out.println( b4.compareTo(b1) ); //should be pos
+	/*=========================================
 	  =========================================*/
     }//end main()
 
