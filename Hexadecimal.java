@@ -37,37 +37,37 @@ public class Hexadecimal implements Comparable {
 
 
     /*=====================================
-      String hexToBin(int) -- converts base-10 input to binary
+      String decToHex(int) -- converts base-10 input to binary
       pre:  n >= 0
       post: returns String of hex digits
-      eg  hexToBin(0) -> "0"
-          hexToBin(1) -> "1"
-	  hexToBin(2) -> "2"
-	  hexToBin(3) -> "3"
-	  hexToBin(10) -> "A"
-	  hexToBin(16) -> "10"
-	  hexToBin(20) -> "14"
-	  hexToBin(32) -> "20"
-	  hexToBin(42) -> "2A"
+      eg  decToHex(0) -> "0"
+          decToHex(1) -> "1"
+	  decToHex(2) -> "2"
+	  decToHex(3) -> "3"
+	  decToHex(10) -> "A"
+	  decToHex(16) -> "10"
+	  decToHex(20) -> "14"
+	  decToHex(32) -> "20"
+	  decToHex(42) -> "2A"
       =====================================*/
-    public static String hexToBin( int n ) {
+    public static String decToHex( int n ) {
 
     }
 
 
     /*=====================================
-      String hexToBinR(int) -- converts base-10 input to binary, recursively
+      String decToHexR(int) -- converts base-10 input to binary, recursively
       pre:  n >= 0
       post: returns String of hex digits
-      eg  hexToBin(0) -> "0"
-          hexToBin(1) -> "1"
-	  hexToBin(2) -> "2"
-	  hexToBin(3) -> "3"
-	  hexToBin(10) -> "A"
-	  hexToBin(16) -> "10"
-	  hexToBin(20) -> "14"
-	  hexToBin(32) -> "20"
-	  hexToBin(42) -> "2A"
+      eg  decToHexR(0) -> "0"
+          decToHexR(1) -> "1"
+	  decToHexR(2) -> "2"
+	  decToHexR(3) -> "3"
+	  decToHexR(10) -> "A"
+	  decToHexR(16) -> "10"
+	  decToHexR(20) -> "14"
+	  decToHexR(32) -> "20"
+	  decToHexR(42) -> "2A"
       =====================================*/
     public static String hexToBinR( int n ) { 
 
