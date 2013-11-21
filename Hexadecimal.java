@@ -37,7 +37,7 @@ public class Hexadecimal implements Comparable {
 
 
     /*=====================================
-      String decToHex(int) -- converts base-10 input to binary
+      String decToHex(int) -- converts base-10 input to hexadecimal
       pre:  n >= 0
       post: returns String of hex digits
       eg  decToHex(0) -> "0"
@@ -56,7 +56,7 @@ public class Hexadecimal implements Comparable {
 
 
     /*=====================================
-      String decToHexR(int) -- converts base-10 input to binary, recursively
+      String decToHexR(int) -- converts base-10 input to hexadecimal, recursively
       pre:  n >= 0
       post: returns String of hex digits
       eg  decToHexR(0) -> "0"
