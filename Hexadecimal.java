@@ -69,7 +69,7 @@ public class Hexadecimal implements Comparable {
 	  decToHexR(32) -> "20"
 	  decToHexR(42) -> "2A"
       =====================================*/
-    public static String hexToBinR( int n ) { 
+    public static String decToHexR( int n ) { 
 
     }
 
