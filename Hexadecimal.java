@@ -29,7 +29,7 @@ public class Hexadecimal implements Comparable {
     /*=====================================
       String toString() -- returns String representation of this Object
       pre:  n/a
-      post: returns String of 1's and 0's representing value of this Object
+      post: returns String of hex digits representing value of this Object
       =====================================*/
     public String toString() { 
 
