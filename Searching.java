@@ -97,11 +97,6 @@ public class Searching {
             returns -1 if target not found
       ==================================================*/
 	//YOUR FUNCTION HERE
-    public static int linSearch ( Comparable[] a, Comparable target ) {
-	//YOUR IMPLEMENTATION HERE
-	return -1; //placeholder
-    }
-
 
 
 
