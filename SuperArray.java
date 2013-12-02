@@ -36,7 +36,7 @@ public class SuperArray {
     //accessor method -- return value at specified index
     public int get( int index ) {
 	// *** YOUR IMPLEMENTATION HERE *** 
-	return _data[index];
+	return -1;
     }
 
 
@@ -56,11 +56,16 @@ public class SuperArray {
 
 	for( int i = 0; i < curtis._data.length; i++ ) {
 	    curtis.set( i, i * 2 );
-	    curtis._size++;
 	}
 
 	System.out.println("Printing populated SuperArray curtis...");
 	System.out.println(curtis);
+
+	for( int i = 0; i < 3; i++ ) {
+	    curtis.expand();
+	    System.out.println("Printing expanded SuperArray curtis...");
+	    System.out.println(curtis);
+	}
 	===========================================*/
 
     }
