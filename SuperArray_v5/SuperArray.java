@@ -33,24 +33,15 @@ public class SuperArray<T> implements List<T> {
 
     public static void main( String[] args ) {
 
-	SuperArray<Integer> curtis = new SuperArray<Integer>();
-	System.out.println( "Printing empty SuperArray curtis..." );
-	System.out.println( curtis );
+	/*----------------
+	   Because the underlying data structure was declared as follows:
+	   T[] _data = (T[]) new Object[10];
 
-	for( int i = 0; i < curtis._data.length; i++ ) {
-	    curtis.set( i, i * 2 );
-	}
-
-	System.out.println("Printing populated SuperArray curtis...");
-	System.out.println(curtis);
-
-	for( int i = 0; i < 3; i++ ) {
-	    curtis.expand();
-	    System.out.println("Printing expanded SuperArray curtis...");
-	    System.out.println(curtis);
-	    System.out.println("new length of underlying array: " 
-			       + curtis._data.length );
-	}
+	   ...the length call below (from v4) becomes problematic:
+	   for( int i = 0; i < curtis._data.length; i++ ) {
+          	   curtis.set( i, i * 2 );
+	   }
+	----------------*/
 
 	SuperArray<Integer> mayfield = new SuperArray<Integer>();
 	System.out.println("Printing empty SuperArray mayfield...");
