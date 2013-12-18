@@ -36,8 +36,8 @@ public class BubbleSort {
 
 
     // ArrayList-returning bubbleSort
-    // postcondition: order of data's elements unchanged
-    //                Returns sorted copy of data.
+    // postcondition: order of input ArrayList's elements unchanged
+    //                Returns sorted copy of input ArrayList.
     public static ArrayList<Comparable> bubbleSort( ArrayList<Comparable> input ) {
 	//declare and initialize empty ArrayList for copying
 	ArrayList<Comparable> data = new ArrayList<Comparable>();
