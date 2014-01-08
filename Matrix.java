@@ -13,7 +13,7 @@ public class Matrix {
     private Object[][] matrix;
 
     //default constructor intializes a DEFAULT_SIZE*DEFAULT_SIZE matrix
-    public Matrix( int a ) {
+    public Matrix() {
 
     }
 
@@ -36,7 +36,7 @@ public class Matrix {
     }
 
 
-    //return true if this matrix is empty, false otherwise
+    //return true if this location is empty, false otherwise
     private boolean isEmpty( int r, int c ) {
 
     }
