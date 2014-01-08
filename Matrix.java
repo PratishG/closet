@@ -10,7 +10,7 @@ public class Matrix {
     //constant for default matrix size
     private final static int DEFAULT_SIZE = 2;
 
-    private Object[][] matrix;
+    private Object[][] _matrix;
 
     //default constructor intializes a DEFAULT_SIZE*DEFAULT_SIZE matrix
     public Matrix() {
