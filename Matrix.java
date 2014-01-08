@@ -64,6 +64,12 @@ public class Matrix {
     }
 
 
+    //return true if target is in this matrix; false otherwise
+    public boolean isFound( Object target ) {
+
+    }
+
+
     //swap two columns of this matrix 
     //(1,1) is top left corner of matrix
     //row values increase going down
