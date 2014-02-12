@@ -11,7 +11,7 @@ public class Recursinator {
      * precond: n >= 0
      * eg: fact(5) -> 120
      *******************************************************/
-    public static void fact( int n ) {
+    public static int fact( int n ) {
 	/*** YOUR IMPLEMENTATION HERE ***/
     }
 
@@ -113,6 +113,10 @@ public class Recursinator {
 	System.out.println( "fact(3) -> " + fact(3) ); // 6
 	System.out.println( "fact(4) -> " + fact(4) ); // 24
 	System.out.println( "fact(5) -> " + fact(5) ); // 120
+	System.out.println( "fact(13) -> " + fact(13) ); // ?
+	System.out.println( "fact(14) -> " + fact(14) ); // ?
+	System.out.println( "fact(15) -> " + fact(15) ); // ??? 
+	//...Q: What do the results of these last calls tell you?
 	  --------------------------------------------*/
 
     }//end main
