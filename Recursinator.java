@@ -87,7 +87,7 @@ public class Recursinator {
      * precond: n >= 0
      * eg: commafyRec(100) -> 100
      * eg: commafyRec(1000) -> 1,000
-     * eg: commafyRec(10,000,000) -> 10,000,000
+     * eg: commafyRec(10000000) -> 10,000,000
      *******************************************************/
     public static String commafyRec( int n ) { 
 	/*** YOUR IMPLEMENTATION HERE ***/
