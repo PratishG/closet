@@ -1,6 +1,10 @@
 /*==================================================
-  class BinSearch
-  skeleton file
+  class BinSearch -- Implements binary search algorithm on an int array.
+  Team _____ (Aretha Franklin, Stevie Wonder, James Brown)  
+
+  Summary of Binary Search Algorithm:
+
+
   ==================================================*/
 
 public class BinSearch {
