@@ -221,7 +221,7 @@ public class LList<T> implements List<T> { //your List.java must be in same dir
 
     // ************** Inner Class MyIterator *****************
     // *******************************************************
-    private class MyIterator implements Iterator {
+    private class MyIterator implements Iterator<T> {
 
 	private DLLNode<T> _dummy; // dummy node for tracking current pos
 	private boolean _okToRemove; //flag var to indicate next() was called
