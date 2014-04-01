@@ -163,7 +163,7 @@ public class LList<T> implements List<T> { //your List.java must be in same dir
     }
 
     public void addLast( T newLastVal ) { 
-	//insert new node before first node (prev=_last, next=null)
+	//insert new node after last node (prev=_last, next=null)
 	_tail = new DLLNode<T>( newLastVal, _tail, null );
 
 	if ( _size == 0 ) 
