@@ -4,7 +4,7 @@
  * New in Version 2: Adherence to specification; now implements Stack interface.
  *****************************************************/
 
-public class Latkes implements Stack {
+public class Latkes {
 
     private String [] _stack;
     private int _stackSize;
@@ -38,5 +38,30 @@ public class Latkes implements Stack {
     public boolean isFull() { 
 	/*** YOUR IMPLEMENTATION HERE ***/
     }
+
+
+    //return top element without popping it
+    public String peek() {
+	/*** YOUR IMPLEMENTATION HERE ***/
+    }
+
+
+    /**********************************************************
+     * precondition:  input string has length > 0
+     * postcondition: returns reversed string s
+     *                flip("desserts") -> "stressed"
+     **********************************************************/
+    public static String flip( String s ) { }
+
+
+    /**********************************************************
+     * precondition:  s contains only the characters {,},(,),[,]
+     * postcondition: allMatched( "( {} [()] )" ) -> true
+     *                allMatched( "([)]" )        -> false
+     *                allMatched( "" )            -> true
+     **********************************************************/
+    public static boolean allMatched( String s ) { }
+
+
 
 }//end class Latkes

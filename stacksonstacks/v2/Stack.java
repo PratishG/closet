@@ -1,3 +1,7 @@
+/*****************************************************
+ * interface Stack
+ * Specifies actions a stack must be able to perform.
+ *****************************************************/
 
 public interface Stack {
 
