@@ -1,7 +1,9 @@
 /*****************************************************
  * class Latkes
  * Implements a stack of Strings using an array as underlying container.
- * New in Version 2: Adherence to specification; now implements Stack interface.
+ * New in Version 2: 
+ * a) Adherence to specification; now implements Stack interface.
+ * b) Fun new methods allMatched and flip! 
  *****************************************************/
 
 public class Latkes {

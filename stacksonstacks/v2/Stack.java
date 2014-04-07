@@ -9,7 +9,7 @@ public interface Stack {
     public boolean isEmpty();
 
     //Returns the top element of the stack without popping it.
-    public Object peekTop();
+    public Object peek();
 
     //Pops and returns the top element of the stack.
     public Object pop();
