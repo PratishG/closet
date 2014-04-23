@@ -18,30 +18,30 @@ public class ALQueue<T> implements Queue<T> {
 
     // default constructor
     public ALQueue() { 
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }
 
     // means of adding an item to collection 
     public void enqueue( T x ) {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
     // means of removing an item from collection 
     public T dequeue() {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
     // means of "peeking" at the front item
     public T peekFront() {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
     // means of checking to see if collection is empty
     public boolean isEmpty() {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 

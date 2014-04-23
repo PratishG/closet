@@ -15,12 +15,12 @@ public class LLQueue<T> implements Queue<T> {
 
     // default constructor creates an empty queue
     public LLQueue() { 
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }
 
     // means of adding a thing to the collection
     public void enqueue( T enQVal ) {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
@@ -28,18 +28,18 @@ public class LLQueue<T> implements Queue<T> {
     // Remove and return thing at front of queue.
     // Assume _queue ! empty.
     public T dequeue() { 
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
     // means of peeking at thing next in line for removal
     public T peekFront() {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
     public boolean isEmpty() {
-	/***YOUR IMPLEMENATION HERE***/
+	/***YOUR IMPLEMENTATION HERE***/
     }//O(?)
 
 
