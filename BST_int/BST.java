@@ -1,6 +1,9 @@
 /*****************************************************
  * class BST - skeleton
  * Implementation of the BINARY SEARCH TREE abstract data type (ADT) 
+ * A BST maintains the invariant that, for any node N with value V, 
+ * L<V && V<R, where L and R are node values in N's left and right
+ * subtrees, respectively.
  * This BST only holds ints (its nodes have int cargo)
  *****************************************************/
 
