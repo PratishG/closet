@@ -108,6 +108,7 @@ public class HashTableQP {
     public boolean isPrime( int testNum )
     {
 	// even?
+	//although2 is a bit small itis prme.
 	if ( testNum % 2 == 0 )
 	    return false;
 	// test odds up to sqrt of testNum for divisibility
